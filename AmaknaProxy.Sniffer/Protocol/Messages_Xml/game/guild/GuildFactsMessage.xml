@@ -1,0 +1,8 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildFactsMessage" Id="6415" Heritage="Message">
+	<Fields>
+		<XmlField Name="infos" Type="instance of Types.GuildFactSheetInformations" />
+		<XmlField Name="creationDate" Type="int" Condition="creationDate &lt; 0" />
+		<XmlField Name="nbTaxCollectors" Type="varuhshort" Condition="nbTaxCollectors &lt; 0" />
+		<XmlField Name="members" Type="Types.CharacterMinimalGuildPublicInformations[]" />
+	</Fields>
+</XmlMessage>

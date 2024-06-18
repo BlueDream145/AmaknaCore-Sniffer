@@ -1,0 +1,6 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AchievementObjective" Id="404" Heritage="">
+	<Fields>
+		<XmlField Name="id" Type="varuhint" Condition="id &lt; 0" />
+		<XmlField Name="maxValue" Type="varuhshort" Condition="maxValue &lt; 0" />
+	</Fields>
+</XmlType>

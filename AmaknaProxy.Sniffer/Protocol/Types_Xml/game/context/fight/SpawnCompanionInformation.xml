@@ -1,0 +1,8 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SpawnCompanionInformation" Id="573" Heritage="SpawnInformation">
+	<Fields>
+		<XmlField Name="modelId" Type="sbyte" Condition="modelId &lt; 0" />
+		<XmlField Name="level" Type="varuhshort" Condition="level &lt; 1 || level &gt; 200" />
+		<XmlField Name="summonerId" Type="double" Condition="summonerId &lt; -9007199254740990 || summonerId &gt; 9007199254740990" />
+		<XmlField Name="ownerId" Type="double" Condition="ownerId &lt; -9007199254740990 || ownerId &gt; 9007199254740990" />
+	</Fields>
+</XmlType>

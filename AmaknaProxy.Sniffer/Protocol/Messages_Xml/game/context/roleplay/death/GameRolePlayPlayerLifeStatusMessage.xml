@@ -1,0 +1,6 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GameRolePlayPlayerLifeStatusMessage" Id="5996" Heritage="Message">
+	<Fields>
+		<XmlField Name="state" Type="sbyte" Condition="state &lt; 0" />
+		<XmlField Name="phenixMapId" Type="double" Condition="phenixMapId &lt; 0 || phenixMapId &gt; 9007199254740990" />
+	</Fields>
+</XmlMessage>

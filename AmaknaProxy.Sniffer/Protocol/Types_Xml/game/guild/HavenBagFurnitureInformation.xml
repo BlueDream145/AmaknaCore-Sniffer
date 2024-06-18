@@ -1,0 +1,7 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="HavenBagFurnitureInformation" Id="498" Heritage="">
+	<Fields>
+		<XmlField Name="cellId" Type="varuhshort" Condition="cellId &lt; 0" />
+		<XmlField Name="funitureId" Type="int" />
+		<XmlField Name="orientation" Type="sbyte" Condition="orientation &lt; 0" />
+	</Fields>
+</XmlType>

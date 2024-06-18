@@ -1,0 +1,7 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ObjectItemQuantityPriceDateEffects" Id="577" Heritage="ObjectItemGenericQuantity">
+	<Fields>
+		<XmlField Name="price" Type="varuhlong" Condition="price &lt; 0 || price &gt; 9007199254740990" />
+		<XmlField Name="effects" Type="Types.ObjectEffects" />
+		<XmlField Name="date" Type="int" Condition="date &lt; 0" />
+	</Fields>
+</XmlType>

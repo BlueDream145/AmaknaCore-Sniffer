@@ -1,0 +1,5 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildFactsRequestMessage" Id="6404" Heritage="Message">
+	<Fields>
+		<XmlField Name="guildId" Type="varuhint" Condition="guildId &lt; 0" />
+	</Fields>
+</XmlMessage>

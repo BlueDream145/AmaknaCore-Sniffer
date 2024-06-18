@@ -1,0 +1,5 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ExchangeCraftPaymentModificationRequestMessage" Id="6579" Heritage="Message">
+	<Fields>
+		<XmlField Name="quantity" Type="varuhlong" Condition="quantity &lt; 0 || quantity &gt; 9007199254740990" />
+	</Fields>
+</XmlMessage>

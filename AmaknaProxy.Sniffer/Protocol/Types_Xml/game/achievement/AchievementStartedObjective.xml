@@ -1,0 +1,5 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AchievementStartedObjective" Id="402" Heritage="AchievementObjective">
+	<Fields>
+		<XmlField Name="value" Type="varuhshort" Condition="value &lt; 0" />
+	</Fields>
+</XmlType>

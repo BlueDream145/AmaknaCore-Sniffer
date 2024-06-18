@@ -1,0 +1,7 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="IconPresetSaveRequestMessage" Id="6872" Heritage="Message">
+	<Fields>
+		<XmlField Name="presetId" Type="short" />
+		<XmlField Name="symbolId" Type="sbyte" Condition="symbolId &lt; 0" />
+		<XmlField Name="updateData" Type="boolean" />
+	</Fields>
+</XmlMessage>

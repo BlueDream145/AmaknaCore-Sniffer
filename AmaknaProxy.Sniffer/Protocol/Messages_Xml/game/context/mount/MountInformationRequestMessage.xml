@@ -1,0 +1,6 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="MountInformationRequestMessage" Id="5972" Heritage="Message">
+	<Fields>
+		<XmlField Name="id" Type="double" Condition="id &lt; -9007199254740990 || id &gt; 9007199254740990" />
+		<XmlField Name="time" Type="double" Condition="time &lt; -9007199254740990 || time &gt; 9007199254740990" />
+	</Fields>
+</XmlMessage>

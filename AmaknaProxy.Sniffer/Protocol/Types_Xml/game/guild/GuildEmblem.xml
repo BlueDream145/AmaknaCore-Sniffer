@@ -1,0 +1,8 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildEmblem" Id="87" Heritage="">
+	<Fields>
+		<XmlField Name="symbolShape" Type="varuhshort" Condition="symbolShape &lt; 0" />
+		<XmlField Name="symbolColor" Type="int" />
+		<XmlField Name="backgroundShape" Type="sbyte" Condition="backgroundShape &lt; 0" />
+		<XmlField Name="backgroundColor" Type="int" />
+	</Fields>
+</XmlType>

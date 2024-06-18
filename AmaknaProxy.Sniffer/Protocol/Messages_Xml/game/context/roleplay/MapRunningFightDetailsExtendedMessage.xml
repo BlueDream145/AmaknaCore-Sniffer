@@ -1,0 +1,5 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="MapRunningFightDetailsExtendedMessage" Id="6500" Heritage="MapRunningFightDetailsMessage">
+	<Fields>
+		<XmlField Name="namedPartyTeams" Type="Types.NamedPartyTeam[]" />
+	</Fields>
+</XmlMessage>

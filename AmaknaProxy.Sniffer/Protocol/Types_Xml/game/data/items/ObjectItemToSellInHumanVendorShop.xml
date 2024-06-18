@@ -1,0 +1,10 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ObjectItemToSellInHumanVendorShop" Id="359" Heritage="Item">
+	<Fields>
+		<XmlField Name="objectGID" Type="varuhshort" Condition="objectGID &lt; 0" />
+		<XmlField Name="effects" Type="instance of Types.ObjectEffect[]" />
+		<XmlField Name="objectUID" Type="varuhint" Condition="objectUID &lt; 0" />
+		<XmlField Name="quantity" Type="varuhint" Condition="quantity &lt; 0" />
+		<XmlField Name="objectPrice" Type="varuhlong" Condition="objectPrice &lt; 0 || objectPrice &gt; 9007199254740990" />
+		<XmlField Name="publicPrice" Type="varuhlong" Condition="publicPrice &lt; 0 || publicPrice &gt; 9007199254740990" />
+	</Fields>
+</XmlType>

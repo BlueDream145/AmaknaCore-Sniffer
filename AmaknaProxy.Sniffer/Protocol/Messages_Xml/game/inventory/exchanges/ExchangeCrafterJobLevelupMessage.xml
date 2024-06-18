@@ -1,0 +1,5 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ExchangeCrafterJobLevelupMessage" Id="6598" Heritage="Message">
+	<Fields>
+		<XmlField Name="crafterJobLevel" Type="byte" Condition="crafterJobLevel &lt; 0 || crafterJobLevel &gt; 255" />
+	</Fields>
+</XmlMessage>

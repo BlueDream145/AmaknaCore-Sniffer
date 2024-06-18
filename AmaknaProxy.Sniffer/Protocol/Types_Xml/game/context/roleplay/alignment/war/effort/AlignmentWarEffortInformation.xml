@@ -1,0 +1,6 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AlignmentWarEffortInformation" Id="571" Heritage="">
+	<Fields>
+		<XmlField Name="alignmentSide" Type="sbyte" />
+		<XmlField Name="alignmentWarEffort" Type="varuhlong" Condition="alignmentWarEffort &lt; 0 || alignmentWarEffort &gt; 9007199254740990" />
+	</Fields>
+</XmlType>

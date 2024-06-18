@@ -1,0 +1,12 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SellerBuyerDescriptor" Id="121" Heritage="">
+	<Fields>
+		<XmlField Name="quantities" Type="varuhint[]" />
+		<XmlField Name="types" Type="varuhint[]" />
+		<XmlField Name="taxPercentage" Type="float" />
+		<XmlField Name="taxModificationPercentage" Type="float" />
+		<XmlField Name="maxItemLevel" Type="byte" Condition="maxItemLevel &lt; 0 || maxItemLevel &gt; 255" />
+		<XmlField Name="maxItemPerAccount" Type="varuhint" Condition="maxItemPerAccount &lt; 0" />
+		<XmlField Name="npcContextualId" Type="int" />
+		<XmlField Name="unsoldDelay" Type="varuhshort" Condition="unsoldDelay &lt; 0" />
+	</Fields>
+</XmlType>

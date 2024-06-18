@@ -1,0 +1,6 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PrismSettingsRequestMessage" Id="6437" Heritage="Message">
+	<Fields>
+		<XmlField Name="subAreaId" Type="varuhshort" Condition="subAreaId &lt; 0" />
+		<XmlField Name="startDefenseTime" Type="sbyte" Condition="startDefenseTime &lt; 0" />
+	</Fields>
+</XmlMessage>

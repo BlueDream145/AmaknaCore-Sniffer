@@ -1,0 +1,5 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ZaapRespawnUpdatedMessage" Id="6571" Heritage="Message">
+	<Fields>
+		<XmlField Name="mapId" Type="double" Condition="mapId &lt; 0 || mapId &gt; 9007199254740990" />
+	</Fields>
+</XmlMessage>

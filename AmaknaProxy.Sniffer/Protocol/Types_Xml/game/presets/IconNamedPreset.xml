@@ -1,0 +1,6 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="IconNamedPreset" Id="585" Heritage="PresetsContainerPreset">
+	<Fields>
+		<XmlField Name="iconId" Type="short" Condition="iconId &lt; 0" />
+		<XmlField Name="name" Type="utf" />
+	</Fields>
+</XmlType>

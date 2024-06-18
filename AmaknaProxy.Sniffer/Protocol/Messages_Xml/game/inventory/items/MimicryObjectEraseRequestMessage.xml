@@ -1,0 +1,6 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="MimicryObjectEraseRequestMessage" Id="6457" Heritage="Message">
+	<Fields>
+		<XmlField Name="hostUID" Type="varuhint" Condition="hostUID &lt; 0" />
+		<XmlField Name="hostPos" Type="byte" Condition="hostPos &lt; 0 || hostPos &gt; 255" />
+	</Fields>
+</XmlMessage>

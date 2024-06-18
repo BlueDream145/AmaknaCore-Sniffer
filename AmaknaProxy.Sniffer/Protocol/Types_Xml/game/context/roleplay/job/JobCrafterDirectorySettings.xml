@@ -1,0 +1,7 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="JobCrafterDirectorySettings" Id="97" Heritage="">
+	<Fields>
+		<XmlField Name="jobId" Type="sbyte" Condition="jobId &lt; 0" />
+		<XmlField Name="minLevel" Type="byte" Condition="minLevel &lt; 0 || minLevel &gt; 255" />
+		<XmlField Name="free" Type="boolean" />
+	</Fields>
+</XmlType>

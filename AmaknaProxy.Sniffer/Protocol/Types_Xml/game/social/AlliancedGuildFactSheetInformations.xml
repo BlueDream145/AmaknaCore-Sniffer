@@ -1,0 +1,5 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AlliancedGuildFactSheetInformations" Id="422" Heritage="GuildInformations">
+	<Fields>
+		<XmlField Name="allianceInfos" Type="Types.BasicNamedAllianceInformations" />
+	</Fields>
+</XmlType>

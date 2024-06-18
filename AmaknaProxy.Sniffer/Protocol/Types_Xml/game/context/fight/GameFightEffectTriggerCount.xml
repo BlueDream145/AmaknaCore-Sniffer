@@ -1,0 +1,7 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GameFightEffectTriggerCount" Id="569" Heritage="">
+	<Fields>
+		<XmlField Name="effectId" Type="varuhint" Condition="effectId &lt; 0" />
+		<XmlField Name="targetId" Type="double" Condition="targetId &lt; -9007199254740990 || targetId &gt; 9007199254740990" />
+		<XmlField Name="count" Type="sbyte" Condition="count &lt; 0" />
+	</Fields>
+</XmlType>

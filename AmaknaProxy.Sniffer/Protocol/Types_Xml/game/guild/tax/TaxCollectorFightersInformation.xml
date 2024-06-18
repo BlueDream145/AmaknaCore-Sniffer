@@ -1,0 +1,7 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="TaxCollectorFightersInformation" Id="169" Heritage="">
+	<Fields>
+		<XmlField Name="collectorId" Type="double" Condition="collectorId &lt; 0 || collectorId &gt; 9007199254740990" />
+		<XmlField Name="allyCharactersInformations" Type="instance of Types.CharacterMinimalPlusLookInformations[]" />
+		<XmlField Name="enemyCharactersInformations" Type="instance of Types.CharacterMinimalPlusLookInformations[]" />
+	</Fields>
+</XmlType>

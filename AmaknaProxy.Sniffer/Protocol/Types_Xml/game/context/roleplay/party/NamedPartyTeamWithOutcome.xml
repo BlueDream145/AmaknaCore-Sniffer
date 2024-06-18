@@ -1,0 +1,6 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="NamedPartyTeamWithOutcome" Id="470" Heritage="">
+	<Fields>
+		<XmlField Name="team" Type="Types.NamedPartyTeam" />
+		<XmlField Name="outcome" Type="varuhshort" Condition="outcome &lt; 0" />
+	</Fields>
+</XmlType>

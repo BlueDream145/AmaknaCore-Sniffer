@@ -1,0 +1,6 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PresetSavedMessage" Id="6763" Heritage="Message">
+	<Fields>
+		<XmlField Name="presetId" Type="short" />
+		<XmlField Name="preset" Type="instance of Types.Preset" />
+	</Fields>
+</XmlMessage>

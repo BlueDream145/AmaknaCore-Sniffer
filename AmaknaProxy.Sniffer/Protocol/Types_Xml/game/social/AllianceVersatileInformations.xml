@@ -1,0 +1,8 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AllianceVersatileInformations" Id="432" Heritage="">
+	<Fields>
+		<XmlField Name="allianceId" Type="varuhint" Condition="allianceId &lt; 0" />
+		<XmlField Name="nbGuilds" Type="varuhshort" Condition="nbGuilds &lt; 0" />
+		<XmlField Name="nbMembers" Type="varuhshort" Condition="nbMembers &lt; 0" />
+		<XmlField Name="nbSubarea" Type="varuhshort" Condition="nbSubarea &lt; 0" />
+	</Fields>
+</XmlType>

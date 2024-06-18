@@ -1,0 +1,5 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="FinishMoveListMessage" Id="6704" Heritage="Message">
+	<Fields>
+		<XmlField Name="finishMoves" Type="Types.FinishMoveInformations[]" />
+	</Fields>
+</XmlMessage>

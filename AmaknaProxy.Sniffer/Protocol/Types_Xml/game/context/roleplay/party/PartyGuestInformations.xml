@@ -1,0 +1,12 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PartyGuestInformations" Id="374" Heritage="">
+	<Fields>
+		<XmlField Name="guestId" Type="varuhlong" Condition="guestId &lt; 0 || guestId &gt; 9007199254740990" />
+		<XmlField Name="hostId" Type="varuhlong" Condition="hostId &lt; 0 || hostId &gt; 9007199254740990" />
+		<XmlField Name="name" Type="utf" />
+		<XmlField Name="guestLook" Type="Types.EntityLook" />
+		<XmlField Name="breed" Type="sbyte" />
+		<XmlField Name="sex" Type="boolean" />
+		<XmlField Name="status" Type="instance of Types.PlayerStatus" />
+		<XmlField Name="entities" Type="Types.PartyEntityBaseInformation[]" />
+	</Fields>
+</XmlType>

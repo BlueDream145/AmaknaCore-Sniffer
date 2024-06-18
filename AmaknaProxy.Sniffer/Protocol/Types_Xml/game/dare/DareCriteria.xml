@@ -1,0 +1,6 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DareCriteria" Id="501" Heritage="">
+	<Fields>
+		<XmlField Name="type" Type="sbyte" Condition="type &lt; 0" />
+		<XmlField Name="params" Type="int[]" />
+	</Fields>
+</XmlType>

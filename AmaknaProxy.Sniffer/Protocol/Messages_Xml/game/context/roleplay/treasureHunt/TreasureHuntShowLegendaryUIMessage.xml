@@ -1,0 +1,5 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="TreasureHuntShowLegendaryUIMessage" Id="6498" Heritage="Message">
+	<Fields>
+		<XmlField Name="availableLegendaryIds" Type="varuhshort[]" />
+	</Fields>
+</XmlMessage>

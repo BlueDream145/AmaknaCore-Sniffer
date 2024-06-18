@@ -1,0 +1,47 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GameFightMinimalStats" Id="31" Heritage="">
+	<Fields>
+		<XmlField Name="lifePoints" Type="varuhint" Condition="lifePoints &lt; 0" />
+		<XmlField Name="maxLifePoints" Type="varuhint" Condition="maxLifePoints &lt; 0" />
+		<XmlField Name="baseMaxLifePoints" Type="varuhint" Condition="baseMaxLifePoints &lt; 0" />
+		<XmlField Name="permanentDamagePercent" Type="varuhint" Condition="permanentDamagePercent &lt; 0" />
+		<XmlField Name="shieldPoints" Type="varuhint" Condition="shieldPoints &lt; 0" />
+		<XmlField Name="actionPoints" Type="varshort" />
+		<XmlField Name="maxActionPoints" Type="varshort" />
+		<XmlField Name="movementPoints" Type="varshort" />
+		<XmlField Name="maxMovementPoints" Type="varshort" />
+		<XmlField Name="summoner" Type="double" Condition="summoner &lt; -9007199254740990 || summoner &gt; 9007199254740990" />
+		<XmlField Name="summoned" Type="boolean" />
+		<XmlField Name="neutralElementResistPercent" Type="varshort" />
+		<XmlField Name="earthElementResistPercent" Type="varshort" />
+		<XmlField Name="waterElementResistPercent" Type="varshort" />
+		<XmlField Name="airElementResistPercent" Type="varshort" />
+		<XmlField Name="fireElementResistPercent" Type="varshort" />
+		<XmlField Name="neutralElementReduction" Type="varshort" />
+		<XmlField Name="earthElementReduction" Type="varshort" />
+		<XmlField Name="waterElementReduction" Type="varshort" />
+		<XmlField Name="airElementReduction" Type="varshort" />
+		<XmlField Name="fireElementReduction" Type="varshort" />
+		<XmlField Name="criticalDamageFixedResist" Type="varshort" />
+		<XmlField Name="pushDamageFixedResist" Type="varshort" />
+		<XmlField Name="pvpNeutralElementResistPercent" Type="varshort" />
+		<XmlField Name="pvpEarthElementResistPercent" Type="varshort" />
+		<XmlField Name="pvpWaterElementResistPercent" Type="varshort" />
+		<XmlField Name="pvpAirElementResistPercent" Type="varshort" />
+		<XmlField Name="pvpFireElementResistPercent" Type="varshort" />
+		<XmlField Name="pvpNeutralElementReduction" Type="varshort" />
+		<XmlField Name="pvpEarthElementReduction" Type="varshort" />
+		<XmlField Name="pvpWaterElementReduction" Type="varshort" />
+		<XmlField Name="pvpAirElementReduction" Type="varshort" />
+		<XmlField Name="pvpFireElementReduction" Type="varshort" />
+		<XmlField Name="dodgePALostProbability" Type="varuhshort" Condition="dodgePALostProbability &lt; 0" />
+		<XmlField Name="dodgePMLostProbability" Type="varuhshort" Condition="dodgePMLostProbability &lt; 0" />
+		<XmlField Name="tackleBlock" Type="varshort" />
+		<XmlField Name="tackleEvade" Type="varshort" />
+		<XmlField Name="fixedDamageReflection" Type="varshort" />
+		<XmlField Name="invisibilityState" Type="sbyte" Condition="invisibilityState &lt; 0" />
+		<XmlField Name="meleeDamageReceivedPercent" Type="varuhshort" Condition="meleeDamageReceivedPercent &lt; 0" />
+		<XmlField Name="rangedDamageReceivedPercent" Type="varuhshort" Condition="rangedDamageReceivedPercent &lt; 0" />
+		<XmlField Name="weaponDamageReceivedPercent" Type="varuhshort" Condition="weaponDamageReceivedPercent &lt; 0" />
+		<XmlField Name="spellDamageReceivedPercent" Type="varuhshort" Condition="spellDamageReceivedPercent &lt; 0" />
+	</Fields>
+</XmlType>

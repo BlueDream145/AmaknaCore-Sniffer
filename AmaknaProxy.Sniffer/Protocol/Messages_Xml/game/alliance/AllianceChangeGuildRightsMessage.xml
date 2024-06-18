@@ -1,0 +1,6 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AllianceChangeGuildRightsMessage" Id="6426" Heritage="Message">
+	<Fields>
+		<XmlField Name="guildId" Type="varuhint" Condition="guildId &lt; 0" />
+		<XmlField Name="rights" Type="sbyte" Condition="rights &lt; 0" />
+	</Fields>
+</XmlMessage>

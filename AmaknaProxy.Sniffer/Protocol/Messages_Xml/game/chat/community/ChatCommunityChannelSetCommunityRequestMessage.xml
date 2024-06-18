@@ -1,0 +1,5 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ChatCommunityChannelSetCommunityRequestMessage" Id="6729" Heritage="Message">
+	<Fields>
+		<XmlField Name="communityId" Type="short" />
+	</Fields>
+</XmlMessage>

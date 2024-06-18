@@ -1,0 +1,6 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="MapComplementaryInformationsAnomalyMessage" Id="6828" Heritage="MapComplementaryInformationsDataMessage">
+	<Fields>
+		<XmlField Name="level" Type="varuhshort" Condition="level &lt; 0" />
+		<XmlField Name="closingTime" Type="varuhlong" Condition="closingTime &lt; 0 || closingTime &gt; 9007199254740990" />
+	</Fields>
+</XmlMessage>

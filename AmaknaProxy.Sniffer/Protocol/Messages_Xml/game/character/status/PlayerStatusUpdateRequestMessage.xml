@@ -1,0 +1,5 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PlayerStatusUpdateRequestMessage" Id="6387" Heritage="Message">
+	<Fields>
+		<XmlField Name="status" Type="instance of Types.PlayerStatus" />
+	</Fields>
+</XmlMessage>

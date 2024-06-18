@@ -1,0 +1,7 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="FightResultListEntry" Id="16" Heritage="">
+	<Fields>
+		<XmlField Name="outcome" Type="varuhshort" Condition="outcome &lt; 0" />
+		<XmlField Name="wave" Type="sbyte" Condition="wave &lt; 0" />
+		<XmlField Name="rewards" Type="Types.FightLoot" />
+	</Fields>
+</XmlType>

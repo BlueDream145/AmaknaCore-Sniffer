@@ -1,0 +1,8 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildVersatileInformations" Id="435" Heritage="">
+	<Fields>
+		<XmlField Name="guildId" Type="varuhint" Condition="guildId &lt; 0" />
+		<XmlField Name="leaderId" Type="varuhlong" Condition="leaderId &lt; 0 || leaderId &gt; 9007199254740990" />
+		<XmlField Name="guildLevel" Type="byte" Condition="guildLevel &lt; 1 || guildLevel &gt; 200" />
+		<XmlField Name="nbMembers" Type="byte" Condition="nbMembers &lt; 1 || nbMembers &gt; 240" />
+	</Fields>
+</XmlType>

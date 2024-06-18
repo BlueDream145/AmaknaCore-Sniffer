@@ -1,0 +1,8 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="FriendSpouseOnlineInformations" Id="93" Heritage="FriendSpouseInformations">
+	<Fields>
+		<XmlField Name="inFight" Type="flag(0)" />
+		<XmlField Name="followSpouse" Type="flag(1)" />
+		<XmlField Name="mapId" Type="double" Condition="mapId &lt; 0 || mapId &gt; 9007199254740990" />
+		<XmlField Name="subAreaId" Type="varuhshort" Condition="subAreaId &lt; 0" />
+	</Fields>
+</XmlType>

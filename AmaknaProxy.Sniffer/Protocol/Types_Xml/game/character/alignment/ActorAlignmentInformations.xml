@@ -1,0 +1,8 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ActorAlignmentInformations" Id="201" Heritage="">
+	<Fields>
+		<XmlField Name="alignmentSide" Type="sbyte" />
+		<XmlField Name="alignmentValue" Type="sbyte" Condition="alignmentValue &lt; 0" />
+		<XmlField Name="alignmentGrade" Type="sbyte" Condition="alignmentGrade &lt; 0" />
+		<XmlField Name="characterPower" Type="double" Condition="characterPower &lt; -9007199254740990 || characterPower &gt; 9007199254740990" />
+	</Fields>
+</XmlType>

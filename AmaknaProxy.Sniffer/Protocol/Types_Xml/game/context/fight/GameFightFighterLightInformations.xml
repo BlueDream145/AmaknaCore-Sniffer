@@ -1,0 +1,10 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GameFightFighterLightInformations" Id="413" Heritage="">
+	<Fields>
+		<XmlField Name="sex" Type="flag(0)" />
+		<XmlField Name="alive" Type="flag(1)" />
+		<XmlField Name="id" Type="double" Condition="id &lt; -9007199254740990 || id &gt; 9007199254740990" />
+		<XmlField Name="wave" Type="sbyte" Condition="wave &lt; 0" />
+		<XmlField Name="level" Type="varuhshort" Condition="level &lt; 0" />
+		<XmlField Name="breed" Type="sbyte" />
+	</Fields>
+</XmlType>

@@ -1,0 +1,5 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PortalDialogCreationMessage" Id="6737" Heritage="NpcDialogCreationMessage">
+	<Fields>
+		<XmlField Name="type" Type="int" Condition="type &lt; 0" />
+	</Fields>
+</XmlMessage>

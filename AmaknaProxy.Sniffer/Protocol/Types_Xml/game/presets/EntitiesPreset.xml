@@ -1,0 +1,6 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="EntitiesPreset" Id="545" Heritage="Preset">
+	<Fields>
+		<XmlField Name="iconId" Type="short" Condition="iconId &lt; 0" />
+		<XmlField Name="entityIds" Type="varuhshort[]" />
+	</Fields>
+</XmlType>

@@ -1,0 +1,7 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="StatsUpgradeRequestMessage" Id="5610" Heritage="Message">
+	<Fields>
+		<XmlField Name="useAdditionnal" Type="boolean" />
+		<XmlField Name="statId" Type="sbyte" Condition="statId &lt; 0" />
+		<XmlField Name="boostPoint" Type="varuhshort" Condition="boostPoint &lt; 0" />
+	</Fields>
+</XmlMessage>

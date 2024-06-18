@@ -1,0 +1,9 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GameFightFighterNamedInformations" Id="158" Heritage="GameFightFighterInformations">
+	<Fields>
+		<XmlField Name="name" Type="utf" />
+		<XmlField Name="status" Type="Types.PlayerStatus" />
+		<XmlField Name="leagueId" Type="varshort" />
+		<XmlField Name="ladderPosition" Type="int" />
+		<XmlField Name="hiddenInPrefight" Type="boolean" />
+	</Fields>
+</XmlType>

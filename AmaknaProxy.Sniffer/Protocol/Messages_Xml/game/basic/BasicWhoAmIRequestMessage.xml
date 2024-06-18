@@ -1,0 +1,5 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="BasicWhoAmIRequestMessage" Id="5664" Heritage="Message">
+	<Fields>
+		<XmlField Name="verbose" Type="boolean" />
+	</Fields>
+</XmlMessage>

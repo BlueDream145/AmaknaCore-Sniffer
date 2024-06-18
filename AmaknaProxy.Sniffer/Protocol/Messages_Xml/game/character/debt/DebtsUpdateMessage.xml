@@ -1,0 +1,6 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DebtsUpdateMessage" Id="6865" Heritage="Message">
+	<Fields>
+		<XmlField Name="action" Type="sbyte" Condition="action &lt; 0" />
+		<XmlField Name="debts" Type="instance of Types.DebtInformation[]" />
+	</Fields>
+</XmlMessage>

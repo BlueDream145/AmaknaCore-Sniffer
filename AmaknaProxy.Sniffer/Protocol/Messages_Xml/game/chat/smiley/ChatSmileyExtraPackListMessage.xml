@@ -1,0 +1,5 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ChatSmileyExtraPackListMessage" Id="6596" Heritage="Message">
+	<Fields>
+		<XmlField Name="packIds" Type="sbyte[]" />
+	</Fields>
+</XmlMessage>

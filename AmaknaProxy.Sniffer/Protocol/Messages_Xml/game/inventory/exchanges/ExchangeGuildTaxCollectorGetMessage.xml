@@ -1,0 +1,15 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ExchangeGuildTaxCollectorGetMessage" Id="5762" Heritage="Message">
+	<Fields>
+		<XmlField Name="collectorName" Type="utf" />
+		<XmlField Name="worldX" Type="short" Condition="worldX &lt; -255 || worldX &gt; 255" />
+		<XmlField Name="worldY" Type="short" Condition="worldY &lt; -255 || worldY &gt; 255" />
+		<XmlField Name="mapId" Type="double" Condition="mapId &lt; 0 || mapId &gt; 9007199254740990" />
+		<XmlField Name="subAreaId" Type="varuhshort" Condition="subAreaId &lt; 0" />
+		<XmlField Name="userName" Type="utf" />
+		<XmlField Name="callerId" Type="varuhlong" Condition="callerId &lt; 0 || callerId &gt; 9007199254740990" />
+		<XmlField Name="callerName" Type="utf" />
+		<XmlField Name="experience" Type="double" Condition="experience &lt; -9007199254740990 || experience &gt; 9007199254740990" />
+		<XmlField Name="pods" Type="varuhshort" Condition="pods &lt; 0" />
+		<XmlField Name="objectsInfos" Type="Types.ObjectItemGenericQuantity[]" />
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,5 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GameRolePlayPortalInformations" Id="467" Heritage="GameRolePlayActorInformations">
+	<Fields>
+		<XmlField Name="portal" Type="instance of Types.PortalInformation" />
+	</Fields>
+</XmlType>

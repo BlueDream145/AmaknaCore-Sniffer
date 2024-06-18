@@ -1,0 +1,6 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DareInformationsMessage" Id="6656" Heritage="Message">
+	<Fields>
+		<XmlField Name="dareFixedInfos" Type="Types.DareInformations" />
+		<XmlField Name="dareVersatilesInfos" Type="Types.DareVersatileInformations" />
+	</Fields>
+</XmlMessage>

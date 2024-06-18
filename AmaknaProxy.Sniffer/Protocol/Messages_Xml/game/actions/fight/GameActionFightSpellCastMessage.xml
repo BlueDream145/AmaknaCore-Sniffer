@@ -1,0 +1,7 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GameActionFightSpellCastMessage" Id="1010" Heritage="AbstractGameActionFightTargetedAbilityMessage">
+	<Fields>
+		<XmlField Name="spellId" Type="varuhshort" Condition="spellId &lt; 0" />
+		<XmlField Name="spellLevel" Type="short" Condition="spellLevel &lt; 1 || spellLevel &gt; 200" />
+		<XmlField Name="portalsIds" Type="short[]" />
+	</Fields>
+</XmlMessage>

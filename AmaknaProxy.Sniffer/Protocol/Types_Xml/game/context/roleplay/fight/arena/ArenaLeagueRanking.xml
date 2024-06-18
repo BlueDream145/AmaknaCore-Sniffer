@@ -1,0 +1,9 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ArenaLeagueRanking" Id="553" Heritage="">
+	<Fields>
+		<XmlField Name="rank" Type="varuhshort" Condition="rank &lt; 0 || rank &gt; 20000" />
+		<XmlField Name="leagueId" Type="varuhshort" Condition="leagueId &lt; 0" />
+		<XmlField Name="leaguePoints" Type="varshort" />
+		<XmlField Name="totalLeaguePoints" Type="varshort" />
+		<XmlField Name="ladderPosition" Type="int" />
+	</Fields>
+</XmlType>

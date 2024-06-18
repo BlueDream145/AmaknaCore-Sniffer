@@ -1,0 +1,7 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="MountInformationsForPaddock" Id="184" Heritage="">
+	<Fields>
+		<XmlField Name="modelId" Type="varuhshort" Condition="modelId &lt; 0" />
+		<XmlField Name="name" Type="utf" />
+		<XmlField Name="ownerName" Type="utf" />
+	</Fields>
+</XmlType>

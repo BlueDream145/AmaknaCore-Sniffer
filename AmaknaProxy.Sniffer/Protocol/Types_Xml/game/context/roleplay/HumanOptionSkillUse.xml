@@ -1,0 +1,7 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="HumanOptionSkillUse" Id="495" Heritage="HumanOption">
+	<Fields>
+		<XmlField Name="elementId" Type="varuhint" Condition="elementId &lt; 0" />
+		<XmlField Name="skillId" Type="varuhshort" Condition="skillId &lt; 0" />
+		<XmlField Name="skillEndTime" Type="double" Condition="skillEndTime &lt; -9007199254740990 || skillEndTime &gt; 9007199254740990" />
+	</Fields>
+</XmlType>

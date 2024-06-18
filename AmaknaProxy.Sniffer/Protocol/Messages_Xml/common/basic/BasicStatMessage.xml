@@ -1,0 +1,6 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="BasicStatMessage" Id="6530" Heritage="Message">
+	<Fields>
+		<XmlField Name="timeSpent" Type="double" Condition="timeSpent &lt; 0 || timeSpent &gt; 9007199254740990" />
+		<XmlField Name="statId" Type="varuhshort" Condition="statId &lt; 0" />
+	</Fields>
+</XmlMessage>

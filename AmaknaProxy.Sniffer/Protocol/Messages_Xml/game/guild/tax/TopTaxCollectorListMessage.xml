@@ -1,0 +1,5 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="TopTaxCollectorListMessage" Id="6565" Heritage="AbstractTaxCollectorListMessage">
+	<Fields>
+		<XmlField Name="isDungeon" Type="boolean" />
+	</Fields>
+</XmlMessage>

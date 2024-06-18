@@ -1,0 +1,7 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="HumanInformations" Id="157" Heritage="">
+	<Fields>
+		<XmlField Name="restrictions" Type="Types.ActorRestrictionsInformations" />
+		<XmlField Name="sex" Type="boolean" />
+		<XmlField Name="options" Type="instance of Types.HumanOption[]" />
+	</Fields>
+</XmlType>

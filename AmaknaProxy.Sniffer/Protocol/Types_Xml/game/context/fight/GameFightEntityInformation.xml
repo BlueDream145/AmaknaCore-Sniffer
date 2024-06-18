@@ -1,0 +1,7 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GameFightEntityInformation" Id="551" Heritage="GameFightFighterInformations">
+	<Fields>
+		<XmlField Name="entityModelId" Type="sbyte" Condition="entityModelId &lt; 0" />
+		<XmlField Name="level" Type="varuhshort" Condition="level &lt; 1 || level &gt; 200" />
+		<XmlField Name="masterId" Type="double" Condition="masterId &lt; -9007199254740990 || masterId &gt; 9007199254740990" />
+	</Fields>
+</XmlType>

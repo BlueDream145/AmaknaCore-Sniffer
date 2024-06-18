@@ -1,0 +1,6 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="FightStartingPositions" Id="513" Heritage="">
+	<Fields>
+		<XmlField Name="positionsForChallengers" Type="varuhshort[]" />
+		<XmlField Name="positionsForDefenders" Type="varuhshort[]" />
+	</Fields>
+</XmlType>

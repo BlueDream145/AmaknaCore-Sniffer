@@ -1,0 +1,6 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="CompassUpdateMessage" Id="5591" Heritage="Message">
+	<Fields>
+		<XmlField Name="type" Type="sbyte" Condition="type &lt; 0" />
+		<XmlField Name="coords" Type="instance of Types.MapCoordinates" />
+	</Fields>
+</XmlMessage>

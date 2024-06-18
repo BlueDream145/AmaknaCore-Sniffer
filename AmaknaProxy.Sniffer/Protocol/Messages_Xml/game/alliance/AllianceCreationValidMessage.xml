@@ -1,0 +1,7 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AllianceCreationValidMessage" Id="6393" Heritage="Message">
+	<Fields>
+		<XmlField Name="allianceName" Type="utf" />
+		<XmlField Name="allianceTag" Type="utf" />
+		<XmlField Name="allianceEmblem" Type="Types.GuildEmblem" />
+	</Fields>
+</XmlMessage>

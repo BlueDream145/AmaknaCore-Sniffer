@@ -1,0 +1,11 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="BreachBranch" Id="558" Heritage="">
+	<Fields>
+		<XmlField Name="room" Type="sbyte" Condition="room &lt; 0" />
+		<XmlField Name="element" Type="int" Condition="element &lt; 0" />
+		<XmlField Name="bosses" Type="Types.MonsterInGroupLightInformations[]" />
+		<XmlField Name="map" Type="double" Condition="map &lt; 0 || map &gt; 9007199254740990" />
+		<XmlField Name="score" Type="short" />
+		<XmlField Name="relativeScore" Type="short" />
+		<XmlField Name="monsters" Type="Types.MonsterInGroupLightInformations[]" />
+	</Fields>
+</XmlType>

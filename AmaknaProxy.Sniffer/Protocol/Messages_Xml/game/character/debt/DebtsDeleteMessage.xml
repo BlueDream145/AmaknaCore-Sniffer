@@ -1,0 +1,6 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DebtsDeleteMessage" Id="6866" Heritage="Message">
+	<Fields>
+		<XmlField Name="reason" Type="sbyte" Condition="reason &lt; 0" />
+		<XmlField Name="debts" Type="double[]" />
+	</Fields>
+</XmlMessage>

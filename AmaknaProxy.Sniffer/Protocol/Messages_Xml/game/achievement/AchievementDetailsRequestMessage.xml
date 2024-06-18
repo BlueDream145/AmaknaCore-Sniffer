@@ -1,0 +1,5 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AchievementDetailsRequestMessage" Id="6380" Heritage="Message">
+	<Fields>
+		<XmlField Name="achievementId" Type="varuhshort" Condition="achievementId &lt; 0" />
+	</Fields>
+</XmlMessage>

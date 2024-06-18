@@ -1,0 +1,5 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PlayerStatus" Id="415" Heritage="">
+	<Fields>
+		<XmlField Name="statusId" Type="sbyte" Condition="statusId &lt; 0" />
+	</Fields>
+</XmlType>

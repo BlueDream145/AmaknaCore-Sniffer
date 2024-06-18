@@ -1,0 +1,6 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="FinishMoveInformations" Id="506" Heritage="">
+	<Fields>
+		<XmlField Name="finishMoveId" Type="int" Condition="finishMoveId &lt; 0" />
+		<XmlField Name="finishMoveState" Type="boolean" />
+	</Fields>
+</XmlType>

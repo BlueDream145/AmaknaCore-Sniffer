@@ -1,0 +1,8 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SymbioticObjectAssociateRequestMessage" Id="6522" Heritage="Message">
+	<Fields>
+		<XmlField Name="symbioteUID" Type="varuhint" Condition="symbioteUID &lt; 0" />
+		<XmlField Name="symbiotePos" Type="byte" Condition="symbiotePos &lt; 0 || symbiotePos &gt; 255" />
+		<XmlField Name="hostUID" Type="varuhint" Condition="hostUID &lt; 0" />
+		<XmlField Name="hostPos" Type="byte" Condition="hostPos &lt; 0 || hostPos &gt; 255" />
+	</Fields>
+</XmlMessage>

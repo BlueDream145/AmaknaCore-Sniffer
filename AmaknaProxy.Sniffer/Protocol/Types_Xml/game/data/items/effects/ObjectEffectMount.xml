@@ -1,0 +1,18 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ObjectEffectMount" Id="179" Heritage="ObjectEffect">
+	<Fields>
+		<XmlField Name="sex" Type="flag(0)" />
+		<XmlField Name="isRideable" Type="flag(1)" />
+		<XmlField Name="isFeconded" Type="flag(2)" />
+		<XmlField Name="isFecondationReady" Type="flag(3)" />
+		<XmlField Name="id" Type="varuhlong" Condition="id &lt; 0 || id &gt; 9007199254740990" />
+		<XmlField Name="expirationDate" Type="varuhlong" Condition="expirationDate &lt; 0 || expirationDate &gt; 9007199254740990" />
+		<XmlField Name="model" Type="varuhint" Condition="model &lt; 0" />
+		<XmlField Name="name" Type="utf" />
+		<XmlField Name="owner" Type="utf" />
+		<XmlField Name="level" Type="sbyte" Condition="level &lt; 0" />
+		<XmlField Name="reproductionCount" Type="varint" />
+		<XmlField Name="reproductionCountMax" Type="varuhint" Condition="reproductionCountMax &lt; 0" />
+		<XmlField Name="effects" Type="Types.ObjectEffectInteger[]" />
+		<XmlField Name="capacities" Type="varuhint[]" />
+	</Fields>
+</XmlType>

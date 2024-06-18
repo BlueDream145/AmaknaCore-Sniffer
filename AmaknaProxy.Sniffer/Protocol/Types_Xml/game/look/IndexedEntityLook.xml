@@ -1,0 +1,6 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="IndexedEntityLook" Id="405" Heritage="">
+	<Fields>
+		<XmlField Name="look" Type="Types.EntityLook" />
+		<XmlField Name="index" Type="sbyte" Condition="index &lt; 0" />
+	</Fields>
+</XmlType>

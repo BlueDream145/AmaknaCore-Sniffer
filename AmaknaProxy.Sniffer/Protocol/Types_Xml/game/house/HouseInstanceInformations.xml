@@ -1,0 +1,10 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="HouseInstanceInformations" Id="511" Heritage="">
+	<Fields>
+		<XmlField Name="secondHand" Type="flag(0)" />
+		<XmlField Name="isLocked" Type="flag(1)" />
+		<XmlField Name="isSaleLocked" Type="flag(2)" />
+		<XmlField Name="instanceId" Type="int" Condition="instanceId &lt; 0" />
+		<XmlField Name="ownerName" Type="utf" />
+		<XmlField Name="price" Type="varlong" Condition="price &lt; -9007199254740990 || price &gt; 9007199254740990" />
+	</Fields>
+</XmlType>

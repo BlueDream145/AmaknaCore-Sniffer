@@ -1,0 +1,9 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="FightResultPvpData" Id="190" Heritage="FightResultAdditionalData">
+	<Fields>
+		<XmlField Name="grade" Type="byte" Condition="grade &lt; 0 || grade &gt; 255" />
+		<XmlField Name="minHonorForGrade" Type="varuhshort" Condition="minHonorForGrade &lt; 0 || minHonorForGrade &gt; 20000" />
+		<XmlField Name="maxHonorForGrade" Type="varuhshort" Condition="maxHonorForGrade &lt; 0 || maxHonorForGrade &gt; 20000" />
+		<XmlField Name="honor" Type="varuhshort" Condition="honor &lt; 0 || honor &gt; 20000" />
+		<XmlField Name="honorDelta" Type="varshort" />
+	</Fields>
+</XmlType>

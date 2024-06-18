@@ -1,0 +1,5 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ZaapDestinationsMessage" Id="6830" Heritage="TeleportDestinationsMessage">
+	<Fields>
+		<XmlField Name="spawnMapId" Type="double" Condition="spawnMapId &lt; 0 || spawnMapId &gt; 9007199254740990" />
+	</Fields>
+</XmlMessage>

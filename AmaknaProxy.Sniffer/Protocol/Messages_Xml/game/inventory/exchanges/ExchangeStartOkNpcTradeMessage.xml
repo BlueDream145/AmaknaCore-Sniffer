@@ -1,0 +1,5 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ExchangeStartOkNpcTradeMessage" Id="5785" Heritage="Message">
+	<Fields>
+		<XmlField Name="npcId" Type="double" Condition="npcId &lt; -9007199254740990 || npcId &gt; 9007199254740990" />
+	</Fields>
+</XmlMessage>

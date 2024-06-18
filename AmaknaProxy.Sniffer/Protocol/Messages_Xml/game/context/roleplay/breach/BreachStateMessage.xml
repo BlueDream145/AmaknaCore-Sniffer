@@ -1,0 +1,8 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="BreachStateMessage" Id="6799" Heritage="Message">
+	<Fields>
+		<XmlField Name="owner" Type="Types.CharacterMinimalInformations" />
+		<XmlField Name="bonuses" Type="Types.ObjectEffectInteger[]" />
+		<XmlField Name="bugdet" Type="varuhint" Condition="bugdet &lt; 0" />
+		<XmlField Name="saved" Type="boolean" />
+	</Fields>
+</XmlMessage>

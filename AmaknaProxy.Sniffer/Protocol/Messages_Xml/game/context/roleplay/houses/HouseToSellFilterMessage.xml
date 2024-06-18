@@ -1,0 +1,10 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="HouseToSellFilterMessage" Id="6137" Heritage="Message">
+	<Fields>
+		<XmlField Name="areaId" Type="int" />
+		<XmlField Name="atLeastNbRoom" Type="sbyte" Condition="atLeastNbRoom &lt; 0" />
+		<XmlField Name="atLeastNbChest" Type="sbyte" Condition="atLeastNbChest &lt; 0" />
+		<XmlField Name="skillRequested" Type="varuhshort" Condition="skillRequested &lt; 0" />
+		<XmlField Name="maxPrice" Type="varuhlong" Condition="maxPrice &lt; 0 || maxPrice &gt; 9007199254740990" />
+		<XmlField Name="orderBy" Type="sbyte" Condition="orderBy &lt; 0" />
+	</Fields>
+</XmlMessage>

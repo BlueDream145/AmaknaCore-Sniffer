@@ -1,0 +1,5 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="MigratedServerListMessage" Id="6731" Heritage="Message">
+	<Fields>
+		<XmlField Name="migratedServerIds" Type="varuhshort[]" />
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,6 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DareSubscribedListMessage" Id="6658" Heritage="Message">
+	<Fields>
+		<XmlField Name="daresFixedInfos" Type="Types.DareInformations[]" />
+		<XmlField Name="daresVersatilesInfos" Type="Types.DareVersatileInformations[]" />
+	</Fields>
+</XmlMessage>

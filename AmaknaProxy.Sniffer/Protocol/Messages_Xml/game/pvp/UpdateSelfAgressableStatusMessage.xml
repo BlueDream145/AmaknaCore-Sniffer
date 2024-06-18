@@ -1,0 +1,6 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="UpdateSelfAgressableStatusMessage" Id="6456" Heritage="Message">
+	<Fields>
+		<XmlField Name="status" Type="sbyte" Condition="status &lt; 0" />
+		<XmlField Name="probationTime" Type="int" Condition="probationTime &lt; 0" />
+	</Fields>
+</XmlMessage>

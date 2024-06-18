@@ -1,0 +1,5 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="BreachEnterMessage" Id="6810" Heritage="Message">
+	<Fields>
+		<XmlField Name="owner" Type="varuhlong" Condition="owner &lt; 0 || owner &gt; 9007199254740990" />
+	</Fields>
+</XmlMessage>
