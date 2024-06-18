@@ -1,0 +1,6 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ObjectAddedMessage" Id="3025" Heritage="Message">
+	<Fields>
+		<XmlField Name="@object" Type="Types.ObjectItem" />
+		<XmlField Name="origin" Type="sbyte" Condition="origin &lt; 0" />
+	</Fields>
+</XmlMessage>

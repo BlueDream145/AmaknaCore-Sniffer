@@ -1,0 +1,18 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="FightResultExperienceData" Id="192" Heritage="FightResultAdditionalData">
+	<Fields>
+		<XmlField Name="showExperience" Type="flag(0)" />
+		<XmlField Name="showExperienceLevelFloor" Type="flag(1)" />
+		<XmlField Name="showExperienceNextLevelFloor" Type="flag(2)" />
+		<XmlField Name="showExperienceFightDelta" Type="flag(3)" />
+		<XmlField Name="showExperienceForGuild" Type="flag(4)" />
+		<XmlField Name="showExperienceForMount" Type="flag(5)" />
+		<XmlField Name="isIncarnationExperience" Type="flag(6)" />
+		<XmlField Name="experience" Type="varuhlong" Condition="experience &lt; 0 || experience &gt; 9007199254740990" />
+		<XmlField Name="experienceLevelFloor" Type="varuhlong" Condition="experienceLevelFloor &lt; 0 || experienceLevelFloor &gt; 9007199254740990" />
+		<XmlField Name="experienceNextLevelFloor" Type="varuhlong" Condition="experienceNextLevelFloor &lt; 0 || experienceNextLevelFloor &gt; 9007199254740990" />
+		<XmlField Name="experienceFightDelta" Type="varuhlong" Condition="experienceFightDelta &lt; 0 || experienceFightDelta &gt; 9007199254740990" />
+		<XmlField Name="experienceForGuild" Type="varuhlong" Condition="experienceForGuild &lt; 0 || experienceForGuild &gt; 9007199254740990" />
+		<XmlField Name="experienceForMount" Type="varuhlong" Condition="experienceForMount &lt; 0 || experienceForMount &gt; 9007199254740990" />
+		<XmlField Name="rerollExperienceMul" Type="sbyte" Condition="rerollExperienceMul &lt; 0" />
+	</Fields>
+</XmlType>

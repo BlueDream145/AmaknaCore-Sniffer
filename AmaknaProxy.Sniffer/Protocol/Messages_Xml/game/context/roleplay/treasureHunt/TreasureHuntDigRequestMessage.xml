@@ -1,0 +1,5 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="TreasureHuntDigRequestMessage" Id="6485" Heritage="Message">
+	<Fields>
+		<XmlField Name="questType" Type="sbyte" Condition="questType &lt; 0" />
+	</Fields>
+</XmlMessage>

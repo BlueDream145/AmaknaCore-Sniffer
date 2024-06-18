@@ -1,0 +1,7 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="CharacterAlignmentWarEffortProgressionMessage" Id="6851" Heritage="Message">
+	<Fields>
+		<XmlField Name="alignmentWarEffortDailyLimit" Type="varuhlong" Condition="alignmentWarEffortDailyLimit &lt; 0 || alignmentWarEffortDailyLimit &gt; 9007199254740990" />
+		<XmlField Name="alignmentWarEffortDailyDonation" Type="varuhlong" Condition="alignmentWarEffortDailyDonation &lt; 0 || alignmentWarEffortDailyDonation &gt; 9007199254740990" />
+		<XmlField Name="alignmentWarEffortPersonalDonation" Type="varuhlong" Condition="alignmentWarEffortPersonalDonation &lt; 0 || alignmentWarEffortPersonalDonation &gt; 9007199254740990" />
+	</Fields>
+</XmlMessage>

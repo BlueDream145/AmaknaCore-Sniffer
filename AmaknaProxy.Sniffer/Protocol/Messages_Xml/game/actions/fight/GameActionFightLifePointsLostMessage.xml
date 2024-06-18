@@ -1,0 +1,8 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GameActionFightLifePointsLostMessage" Id="6312" Heritage="AbstractGameActionMessage">
+	<Fields>
+		<XmlField Name="targetId" Type="double" Condition="targetId &lt; -9007199254740990 || targetId &gt; 9007199254740990" />
+		<XmlField Name="loss" Type="varuhint" Condition="loss &lt; 0" />
+		<XmlField Name="permanentDamages" Type="varuhint" Condition="permanentDamages &lt; 0" />
+		<XmlField Name="elementId" Type="varint" />
+	</Fields>
+</XmlMessage>

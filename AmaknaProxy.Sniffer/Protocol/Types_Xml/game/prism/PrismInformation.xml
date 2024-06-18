@@ -1,0 +1,9 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PrismInformation" Id="428" Heritage="">
+	<Fields>
+		<XmlField Name="typeId" Type="sbyte" Condition="typeId &lt; 0" />
+		<XmlField Name="state" Type="sbyte" Condition="state &lt; 0" />
+		<XmlField Name="nextVulnerabilityDate" Type="int" Condition="nextVulnerabilityDate &lt; 0" />
+		<XmlField Name="placementDate" Type="int" Condition="placementDate &lt; 0" />
+		<XmlField Name="rewardTokenCount" Type="varuhint" Condition="rewardTokenCount &lt; 0" />
+	</Fields>
+</XmlType>

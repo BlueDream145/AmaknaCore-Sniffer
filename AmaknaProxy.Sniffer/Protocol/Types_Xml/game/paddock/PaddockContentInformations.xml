@@ -1,0 +1,11 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PaddockContentInformations" Id="183" Heritage="PaddockInformations">
+	<Fields>
+		<XmlField Name="paddockId" Type="double" Condition="paddockId &lt; 0 || paddockId &gt; 9007199254740990" />
+		<XmlField Name="worldX" Type="short" Condition="worldX &lt; -255 || worldX &gt; 255" />
+		<XmlField Name="worldY" Type="short" Condition="worldY &lt; -255 || worldY &gt; 255" />
+		<XmlField Name="mapId" Type="double" Condition="mapId &lt; 0 || mapId &gt; 9007199254740990" />
+		<XmlField Name="subAreaId" Type="varuhshort" Condition="subAreaId &lt; 0" />
+		<XmlField Name="abandonned" Type="boolean" />
+		<XmlField Name="mountsInformations" Type="Types.MountInformationsForPaddock[]" />
+	</Fields>
+</XmlType>

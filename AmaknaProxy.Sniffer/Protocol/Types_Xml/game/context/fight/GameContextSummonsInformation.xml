@@ -1,0 +1,9 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GameContextSummonsInformation" Id="567" Heritage="">
+	<Fields>
+		<XmlField Name="spawnInformation" Type="instance of Types.SpawnInformation" />
+		<XmlField Name="wave" Type="sbyte" Condition="wave &lt; 0" />
+		<XmlField Name="look" Type="Types.EntityLook" />
+		<XmlField Name="stats" Type="instance of Types.GameFightMinimalStats" />
+		<XmlField Name="summons" Type="instance of Types.GameContextBasicSpawnInformation[]" />
+	</Fields>
+</XmlType>

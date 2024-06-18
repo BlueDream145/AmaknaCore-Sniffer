@@ -1,0 +1,7 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="HouseGuildNoneMessage" Id="5701" Heritage="Message">
+	<Fields>
+		<XmlField Name="houseId" Type="varuhint" Condition="houseId &lt; 0" />
+		<XmlField Name="instanceId" Type="int" Condition="instanceId &lt; 0" />
+		<XmlField Name="secondHand" Type="boolean" />
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,11 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="FightTeamLightInformations" Id="115" Heritage="AbstractFightTeamInformations">
+	<Fields>
+		<XmlField Name="hasFriend" Type="flag(0)" />
+		<XmlField Name="hasGuildMember" Type="flag(1)" />
+		<XmlField Name="hasAllianceMember" Type="flag(2)" />
+		<XmlField Name="hasGroupMember" Type="flag(3)" />
+		<XmlField Name="hasMyTaxCollector" Type="flag(4)" />
+		<XmlField Name="teamMembersCount" Type="sbyte" Condition="teamMembersCount &lt; 0" />
+		<XmlField Name="meanLevel" Type="varuhint" Condition="meanLevel &lt; 0" />
+	</Fields>
+</XmlType>

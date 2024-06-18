@@ -1,0 +1,6 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PrismFightJoinLeaveRequestMessage" Id="5843" Heritage="Message">
+	<Fields>
+		<XmlField Name="subAreaId" Type="varuhshort" Condition="subAreaId &lt; 0" />
+		<XmlField Name="join" Type="boolean" />
+	</Fields>
+</XmlMessage>

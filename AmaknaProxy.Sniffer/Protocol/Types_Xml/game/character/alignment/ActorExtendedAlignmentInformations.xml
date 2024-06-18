@@ -1,0 +1,8 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ActorExtendedAlignmentInformations" Id="202" Heritage="ActorAlignmentInformations">
+	<Fields>
+		<XmlField Name="honor" Type="varuhshort" Condition="honor &lt; 0 || honor &gt; 20000" />
+		<XmlField Name="honorGradeFloor" Type="varuhshort" Condition="honorGradeFloor &lt; 0 || honorGradeFloor &gt; 20000" />
+		<XmlField Name="honorNextGradeFloor" Type="varuhshort" Condition="honorNextGradeFloor &lt; 0 || honorNextGradeFloor &gt; 20000" />
+		<XmlField Name="aggressable" Type="sbyte" Condition="aggressable &lt; 0" />
+	</Fields>
+</XmlType>

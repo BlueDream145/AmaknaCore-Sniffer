@@ -1,0 +1,8 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ChatServerMessage" Id="881" Heritage="ChatAbstractServerMessage">
+	<Fields>
+		<XmlField Name="senderId" Type="double" Condition="senderId &lt; -9007199254740990 || senderId &gt; 9007199254740990" />
+		<XmlField Name="senderName" Type="utf" />
+		<XmlField Name="prefix" Type="utf" />
+		<XmlField Name="senderAccountId" Type="int" Condition="senderAccountId &lt; 0" />
+	</Fields>
+</XmlMessage>

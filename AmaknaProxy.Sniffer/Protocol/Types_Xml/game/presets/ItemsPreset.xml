@@ -1,0 +1,7 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ItemsPreset" Id="517" Heritage="Preset">
+	<Fields>
+		<XmlField Name="items" Type="Types.ItemForPreset[]" />
+		<XmlField Name="mountEquipped" Type="boolean" />
+		<XmlField Name="look" Type="Types.EntityLook" />
+	</Fields>
+</XmlType>

@@ -1,0 +1,6 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GameFightFighterTaxCollectorLightInformations" Id="457" Heritage="GameFightFighterLightInformations">
+	<Fields>
+		<XmlField Name="firstNameId" Type="varuhshort" Condition="firstNameId &lt; 0" />
+		<XmlField Name="lastNameId" Type="varuhshort" Condition="lastNameId &lt; 0" />
+	</Fields>
+</XmlType>

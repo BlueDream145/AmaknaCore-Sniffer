@@ -1,0 +1,13 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GameActionMark" Id="351" Heritage="">
+	<Fields>
+		<XmlField Name="markAuthorId" Type="double" Condition="markAuthorId &lt; -9007199254740990 || markAuthorId &gt; 9007199254740990" />
+		<XmlField Name="markTeamId" Type="sbyte" Condition="markTeamId &lt; 0" />
+		<XmlField Name="markSpellId" Type="int" Condition="markSpellId &lt; 0" />
+		<XmlField Name="markSpellLevel" Type="short" Condition="markSpellLevel &lt; 1 || markSpellLevel &gt; 200" />
+		<XmlField Name="markId" Type="short" />
+		<XmlField Name="markType" Type="sbyte" />
+		<XmlField Name="markimpactCell" Type="short" Condition="markimpactCell &lt; -1 || markimpactCell &gt; 559" />
+		<XmlField Name="cells" Type="Types.GameActionMarkedCell[]" />
+		<XmlField Name="active" Type="boolean" />
+	</Fields>
+</XmlType>

@@ -1,0 +1,5 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GameRolePlayShowActorWithEventMessage" Id="6407" Heritage="GameRolePlayShowActorMessage">
+	<Fields>
+		<XmlField Name="actorEventId" Type="sbyte" Condition="actorEventId &lt; 0" />
+	</Fields>
+</XmlMessage>

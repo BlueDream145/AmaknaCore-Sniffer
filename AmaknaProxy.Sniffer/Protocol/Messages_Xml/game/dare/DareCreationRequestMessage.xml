@@ -1,0 +1,14 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DareCreationRequestMessage" Id="6665" Heritage="Message">
+	<Fields>
+		<XmlField Name="isPrivate" Type="flag(0)" />
+		<XmlField Name="isForGuild" Type="flag(1)" />
+		<XmlField Name="isForAlliance" Type="flag(2)" />
+		<XmlField Name="needNotifications" Type="flag(3)" />
+		<XmlField Name="subscriptionFee" Type="varuhlong" Condition="subscriptionFee &lt; 0 || subscriptionFee &gt; 9007199254740990" />
+		<XmlField Name="jackpot" Type="varuhlong" Condition="jackpot &lt; 0 || jackpot &gt; 9007199254740990" />
+		<XmlField Name="maxCountWinners" Type="ushort" Condition="maxCountWinners &lt; 0 || maxCountWinners &gt; 65535" />
+		<XmlField Name="delayBeforeStart" Type="uint" Condition="delayBeforeStart &lt; 0 || delayBeforeStart &gt; 4294967295" />
+		<XmlField Name="duration" Type="uint" Condition="duration &lt; 0 || duration &gt; 4294967295" />
+		<XmlField Name="criterions" Type="Types.DareCriteria[]" />
+	</Fields>
+</XmlMessage>

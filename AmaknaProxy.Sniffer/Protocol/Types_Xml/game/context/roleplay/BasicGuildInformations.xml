@@ -1,0 +1,7 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="BasicGuildInformations" Id="365" Heritage="AbstractSocialGroupInfos">
+	<Fields>
+		<XmlField Name="guildId" Type="varuhint" Condition="guildId &lt; 0" />
+		<XmlField Name="guildName" Type="utf" />
+		<XmlField Name="guildLevel" Type="byte" Condition="guildLevel &lt; 0 || guildLevel &gt; 200" />
+	</Fields>
+</XmlType>

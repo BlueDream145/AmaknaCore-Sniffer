@@ -1,0 +1,6 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="UpdateMountCharacteristicsMessage" Id="6753" Heritage="Message">
+	<Fields>
+		<XmlField Name="rideId" Type="varint" />
+		<XmlField Name="boostToUpdateList" Type="instance of Types.UpdateMountCharacteristic[]" />
+	</Fields>
+</XmlMessage>

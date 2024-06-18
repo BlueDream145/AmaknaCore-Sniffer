@@ -1,0 +1,5 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="CharacterCanBeCreatedResultMessage" Id="6733" Heritage="Message">
+	<Fields>
+		<XmlField Name="yesYouCan" Type="boolean" />
+	</Fields>
+</XmlMessage>

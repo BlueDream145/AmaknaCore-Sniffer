@@ -1,0 +1,8 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SocialNoticeMessage" Id="6688" Heritage="Message">
+	<Fields>
+		<XmlField Name="content" Type="utf" />
+		<XmlField Name="timestamp" Type="int" Condition="timestamp &lt; 0" />
+		<XmlField Name="memberId" Type="varuhlong" Condition="memberId &lt; 0 || memberId &gt; 9007199254740990" />
+		<XmlField Name="memberName" Type="utf" />
+	</Fields>
+</XmlMessage>

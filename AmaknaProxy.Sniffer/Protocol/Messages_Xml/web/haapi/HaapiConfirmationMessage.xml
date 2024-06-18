@@ -1,0 +1,9 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="HaapiConfirmationMessage" Id="6848" Heritage="Message">
+	<Fields>
+		<XmlField Name="kamas" Type="varuhlong" Condition="kamas &lt; 0 || kamas &gt; 9007199254740990" />
+		<XmlField Name="amount" Type="varuhlong" Condition="amount &lt; 0 || amount &gt; 9007199254740990" />
+		<XmlField Name="rate" Type="varuhshort" Condition="rate &lt; 0" />
+		<XmlField Name="action" Type="sbyte" Condition="action &lt; 0" />
+		<XmlField Name="transaction" Type="utf" />
+	</Fields>
+</XmlMessage>

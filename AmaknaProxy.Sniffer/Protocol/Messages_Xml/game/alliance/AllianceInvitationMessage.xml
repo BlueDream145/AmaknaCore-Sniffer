@@ -1,0 +1,5 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AllianceInvitationMessage" Id="6395" Heritage="Message">
+	<Fields>
+		<XmlField Name="targetId" Type="varuhlong" Condition="targetId &lt; 0 || targetId &gt; 9007199254740990" />
+	</Fields>
+</XmlMessage>

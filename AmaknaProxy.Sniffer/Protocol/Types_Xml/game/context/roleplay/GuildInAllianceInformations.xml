@@ -1,0 +1,6 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildInAllianceInformations" Id="420" Heritage="GuildInformations">
+	<Fields>
+		<XmlField Name="nbMembers" Type="byte" Condition="nbMembers &lt; 1 || nbMembers &gt; 240" />
+		<XmlField Name="joinDate" Type="int" Condition="joinDate &lt; 0" />
+	</Fields>
+</XmlType>

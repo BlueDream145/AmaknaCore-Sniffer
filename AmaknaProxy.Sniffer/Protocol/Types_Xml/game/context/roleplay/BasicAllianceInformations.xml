@@ -1,0 +1,6 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="BasicAllianceInformations" Id="419" Heritage="AbstractSocialGroupInfos">
+	<Fields>
+		<XmlField Name="allianceId" Type="varuhint" Condition="allianceId &lt; 0" />
+		<XmlField Name="allianceTag" Type="utf" />
+	</Fields>
+</XmlType>

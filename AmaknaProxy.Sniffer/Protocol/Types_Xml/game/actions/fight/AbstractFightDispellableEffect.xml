@@ -1,0 +1,11 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AbstractFightDispellableEffect" Id="206" Heritage="">
+	<Fields>
+		<XmlField Name="uid" Type="varuhint" Condition="uid &lt; 0" />
+		<XmlField Name="targetId" Type="double" Condition="targetId &lt; -9007199254740990 || targetId &gt; 9007199254740990" />
+		<XmlField Name="turnDuration" Type="short" />
+		<XmlField Name="dispelable" Type="sbyte" Condition="dispelable &lt; 0" />
+		<XmlField Name="spellId" Type="varuhshort" Condition="spellId &lt; 0" />
+		<XmlField Name="effectId" Type="varuhint" Condition="effectId &lt; 0" />
+		<XmlField Name="parentBoostUid" Type="varuhint" Condition="parentBoostUid &lt; 0" />
+	</Fields>
+</XmlType>

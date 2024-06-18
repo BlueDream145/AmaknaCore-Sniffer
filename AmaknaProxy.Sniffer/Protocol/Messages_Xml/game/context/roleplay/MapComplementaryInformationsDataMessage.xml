@@ -1,0 +1,14 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="MapComplementaryInformationsDataMessage" Id="226" Heritage="Message">
+	<Fields>
+		<XmlField Name="subAreaId" Type="varuhshort" Condition="subAreaId &lt; 0" />
+		<XmlField Name="mapId" Type="double" Condition="mapId &lt; 0 || mapId &gt; 9007199254740990" />
+		<XmlField Name="houses" Type="instance of Types.HouseInformations[]" />
+		<XmlField Name="actors" Type="instance of Types.GameRolePlayActorInformations[]" />
+		<XmlField Name="interactiveElements" Type="instance of Types.InteractiveElement[]" />
+		<XmlField Name="statedElements" Type="Types.StatedElement[]" />
+		<XmlField Name="obstacles" Type="Types.MapObstacle[]" />
+		<XmlField Name="fights" Type="Types.FightCommonInformations[]" />
+		<XmlField Name="hasAggressiveMonsters" Type="boolean" />
+		<XmlField Name="fightStartPositions" Type="Types.FightStartingPositions" />
+	</Fields>
+</XmlMessage>

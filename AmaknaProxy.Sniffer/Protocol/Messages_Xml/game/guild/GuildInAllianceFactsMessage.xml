@@ -1,0 +1,5 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildInAllianceFactsMessage" Id="6422" Heritage="GuildFactsMessage">
+	<Fields>
+		<XmlField Name="allianceInfos" Type="Types.BasicNamedAllianceInformations" />
+	</Fields>
+</XmlMessage>

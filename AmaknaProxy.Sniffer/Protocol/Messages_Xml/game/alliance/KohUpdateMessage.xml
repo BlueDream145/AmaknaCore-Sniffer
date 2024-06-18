@@ -1,0 +1,12 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="KohUpdateMessage" Id="6439" Heritage="Message">
+	<Fields>
+		<XmlField Name="alliances" Type="Types.AllianceInformations[]" />
+		<XmlField Name="allianceNbMembers" Type="varuhshort[]" />
+		<XmlField Name="allianceRoundWeigth" Type="varuhint[]" />
+		<XmlField Name="allianceMatchScore" Type="sbyte[]" />
+		<XmlField Name="allianceMapWinners" Type="Types.BasicAllianceInformations[]" />
+		<XmlField Name="allianceMapWinnerScore" Type="varuhint" Condition="allianceMapWinnerScore &lt; 0" />
+		<XmlField Name="allianceMapMyAllianceScore" Type="varuhint" Condition="allianceMapMyAllianceScore &lt; 0" />
+		<XmlField Name="nextTickTime" Type="double" Condition="nextTickTime &lt; 0 || nextTickTime &gt; 9007199254740990" />
+	</Fields>
+</XmlMessage>

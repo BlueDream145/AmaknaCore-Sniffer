@@ -1,0 +1,14 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="FriendOnlineInformations" Id="92" Heritage="FriendInformations">
+	<Fields>
+		<XmlField Name="sex" Type="flag(0)" />
+		<XmlField Name="havenBagShared" Type="flag(1)" />
+		<XmlField Name="playerId" Type="varuhlong" Condition="playerId &lt; 0 || playerId &gt; 9007199254740990" />
+		<XmlField Name="playerName" Type="utf" />
+		<XmlField Name="level" Type="varuhshort" Condition="level &lt; 0" />
+		<XmlField Name="alignmentSide" Type="sbyte" />
+		<XmlField Name="breed" Type="sbyte" Condition="breed &lt; (byte)Enums.PlayableBreedEnum.Feca || breed &gt; (byte)Enums.PlayableBreedEnum.Ouginak" />
+		<XmlField Name="guildInfo" Type="Types.GuildInformations" />
+		<XmlField Name="moodSmileyId" Type="varuhshort" Condition="moodSmileyId &lt; 0" />
+		<XmlField Name="status" Type="instance of Types.PlayerStatus" />
+	</Fields>
+</XmlType>

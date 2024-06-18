@@ -1,0 +1,5 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AlignmentWarEffortProgressionMessage" Id="6852" Heritage="Message">
+	<Fields>
+		<XmlField Name="effortProgressions" Type="Types.AlignmentWarEffortInformation[]" />
+	</Fields>
+</XmlMessage>

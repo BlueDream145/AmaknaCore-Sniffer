@@ -1,0 +1,7 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SimpleCharacterCharacteristicForPreset" Id="541" Heritage="">
+	<Fields>
+		<XmlField Name="keyword" Type="utf" />
+		<XmlField Name="@base" Type="varshort" />
+		<XmlField Name="additionnal" Type="varshort" />
+	</Fields>
+</XmlType>

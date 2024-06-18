@@ -1,0 +1,6 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AchievementDetailedListMessage" Id="6358" Heritage="Message">
+	<Fields>
+		<XmlField Name="startedAchievements" Type="Types.Achievement[]" />
+		<XmlField Name="finishedAchievements" Type="Types.Achievement[]" />
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,6 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GameRolePlayAggressionMessage" Id="6073" Heritage="Message">
+	<Fields>
+		<XmlField Name="attackerId" Type="varuhlong" Condition="attackerId &lt; 0 || attackerId &gt; 9007199254740990" />
+		<XmlField Name="defenderId" Type="varuhlong" Condition="defenderId &lt; 0 || defenderId &gt; 9007199254740990" />
+	</Fields>
+</XmlMessage>

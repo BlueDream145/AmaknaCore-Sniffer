@@ -1,0 +1,6 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AchievementAchieved" Id="514" Heritage="">
+	<Fields>
+		<XmlField Name="id" Type="varuhshort" Condition="id &lt; 0" />
+		<XmlField Name="achievedBy" Type="varuhlong" Condition="achievedBy &lt; 0 || achievedBy &gt; 9007199254740990" />
+	</Fields>
+</XmlType>

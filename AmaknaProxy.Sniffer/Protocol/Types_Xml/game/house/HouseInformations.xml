@@ -1,0 +1,6 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="HouseInformations" Id="111" Heritage="">
+	<Fields>
+		<XmlField Name="houseId" Type="varuhint" Condition="houseId &lt; 0" />
+		<XmlField Name="modelId" Type="varuhshort" Condition="modelId &lt; 0" />
+	</Fields>
+</XmlType>

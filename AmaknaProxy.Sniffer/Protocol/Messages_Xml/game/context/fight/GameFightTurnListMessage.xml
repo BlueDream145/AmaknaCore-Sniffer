@@ -1,0 +1,6 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GameFightTurnListMessage" Id="713" Heritage="Message">
+	<Fields>
+		<XmlField Name="ids" Type="double[]" />
+		<XmlField Name="deadsIds" Type="double[]" />
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,7 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PrismFightAttackerRemoveMessage" Id="5897" Heritage="Message">
+	<Fields>
+		<XmlField Name="subAreaId" Type="varuhshort" Condition="subAreaId &lt; 0" />
+		<XmlField Name="fightId" Type="varuhshort" Condition="fightId &lt; 0" />
+		<XmlField Name="fighterToRemoveId" Type="varuhlong" Condition="fighterToRemoveId &lt; 0 || fighterToRemoveId &gt; 9007199254740990" />
+	</Fields>
+</XmlMessage>

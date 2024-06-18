@@ -1,0 +1,6 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="RecycleResultMessage" Id="6601" Heritage="Message">
+	<Fields>
+		<XmlField Name="nuggetsForPrism" Type="varuhint" Condition="nuggetsForPrism &lt; 0" />
+		<XmlField Name="nuggetsForPlayer" Type="varuhint" Condition="nuggetsForPlayer &lt; 0" />
+	</Fields>
+</XmlMessage>

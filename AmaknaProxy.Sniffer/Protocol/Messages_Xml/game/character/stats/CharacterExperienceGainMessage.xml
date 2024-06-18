@@ -1,0 +1,8 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="CharacterExperienceGainMessage" Id="6321" Heritage="Message">
+	<Fields>
+		<XmlField Name="experienceCharacter" Type="varuhlong" Condition="experienceCharacter &lt; 0 || experienceCharacter &gt; 9007199254740990" />
+		<XmlField Name="experienceMount" Type="varuhlong" Condition="experienceMount &lt; 0 || experienceMount &gt; 9007199254740990" />
+		<XmlField Name="experienceGuild" Type="varuhlong" Condition="experienceGuild &lt; 0 || experienceGuild &gt; 9007199254740990" />
+		<XmlField Name="experienceIncarnation" Type="varuhlong" Condition="experienceIncarnation &lt; 0 || experienceIncarnation &gt; 9007199254740990" />
+	</Fields>
+</XmlMessage>

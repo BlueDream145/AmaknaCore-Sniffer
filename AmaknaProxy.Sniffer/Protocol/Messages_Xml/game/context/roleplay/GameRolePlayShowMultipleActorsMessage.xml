@@ -1,0 +1,5 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GameRolePlayShowMultipleActorsMessage" Id="6712" Heritage="Message">
+	<Fields>
+		<XmlField Name="informationsList" Type="instance of Types.GameRolePlayActorInformations[]" />
+	</Fields>
+</XmlMessage>

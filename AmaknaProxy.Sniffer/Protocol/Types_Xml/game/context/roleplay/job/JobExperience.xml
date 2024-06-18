@@ -1,0 +1,9 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="JobExperience" Id="98" Heritage="">
+	<Fields>
+		<XmlField Name="jobId" Type="sbyte" Condition="jobId &lt; 0" />
+		<XmlField Name="jobLevel" Type="byte" Condition="jobLevel &lt; 0 || jobLevel &gt; 255" />
+		<XmlField Name="jobXP" Type="varuhlong" Condition="jobXP &lt; 0 || jobXP &gt; 9007199254740990" />
+		<XmlField Name="jobXpLevelFloor" Type="varuhlong" Condition="jobXpLevelFloor &lt; 0 || jobXpLevelFloor &gt; 9007199254740990" />
+		<XmlField Name="jobXpNextLevelFloor" Type="varuhlong" Condition="jobXpNextLevelFloor &lt; 0 || jobXpNextLevelFloor &gt; 9007199254740990" />
+	</Fields>
+</XmlType>

@@ -1,0 +1,5 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SpellVariantActivationRequestMessage" Id="6707" Heritage="Message">
+	<Fields>
+		<XmlField Name="spellId" Type="varuhshort" Condition="spellId &lt; 0" />
+	</Fields>
+</XmlMessage>

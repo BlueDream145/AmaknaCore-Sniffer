@@ -1,0 +1,6 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ItemForPresetUpdateMessage" Id="6760" Heritage="Message">
+	<Fields>
+		<XmlField Name="presetId" Type="short" />
+		<XmlField Name="presetItem" Type="Types.ItemForPreset" />
+	</Fields>
+</XmlMessage>

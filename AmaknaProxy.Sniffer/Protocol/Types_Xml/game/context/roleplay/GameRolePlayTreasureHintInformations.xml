@@ -1,0 +1,5 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GameRolePlayTreasureHintInformations" Id="471" Heritage="GameRolePlayActorInformations">
+	<Fields>
+		<XmlField Name="npcId" Type="varuhshort" Condition="npcId &lt; 0" />
+	</Fields>
+</XmlType>

@@ -1,0 +1,5 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="HumanOptionFollowers" Id="410" Heritage="HumanOption">
+	<Fields>
+		<XmlField Name="followingCharactersLook" Type="Types.IndexedEntityLook[]" />
+	</Fields>
+</XmlType>

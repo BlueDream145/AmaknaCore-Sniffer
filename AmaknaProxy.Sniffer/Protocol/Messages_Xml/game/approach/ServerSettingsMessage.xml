@@ -1,0 +1,11 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ServerSettingsMessage" Id="6340" Heritage="Message">
+	<Fields>
+		<XmlField Name="isMonoAccount" Type="flag(0)" />
+		<XmlField Name="hasFreeAutopilot" Type="flag(1)" />
+		<XmlField Name="lang" Type="utf" />
+		<XmlField Name="community" Type="sbyte" Condition="community &lt; 0" />
+		<XmlField Name="gameType" Type="sbyte" />
+		<XmlField Name="arenaLeaveBanTime" Type="varuhshort" Condition="arenaLeaveBanTime &lt; 0" />
+		<XmlField Name="itemMaxLevel" Type="int" Condition="itemMaxLevel &lt; 0" />
+	</Fields>
+</XmlMessage>

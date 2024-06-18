@@ -1,0 +1,13 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GameServerInformations" Id="25" Heritage="">
+	<Fields>
+		<XmlField Name="isMonoAccount" Type="flag(0)" />
+		<XmlField Name="isSelectable" Type="flag(1)" />
+		<XmlField Name="id" Type="varuhshort" Condition="id &lt; 0" />
+		<XmlField Name="type" Type="sbyte" />
+		<XmlField Name="status" Type="sbyte" Condition="status &lt; 0" />
+		<XmlField Name="completion" Type="sbyte" Condition="completion &lt; 0" />
+		<XmlField Name="charactersCount" Type="sbyte" Condition="charactersCount &lt; 0" />
+		<XmlField Name="charactersSlots" Type="sbyte" Condition="charactersSlots &lt; 0" />
+		<XmlField Name="date" Type="double" Condition="date &lt; -9007199254740990 || date &gt; 9007199254740990" />
+	</Fields>
+</XmlType>

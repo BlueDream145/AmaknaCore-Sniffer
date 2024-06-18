@@ -1,0 +1,10 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GameRolePlayGroupMonsterInformations" Id="160" Heritage="GameRolePlayActorInformations">
+	<Fields>
+		<XmlField Name="keyRingBonus" Type="flag(0)" />
+		<XmlField Name="hasHardcoreDrop" Type="flag(1)" />
+		<XmlField Name="hasAVARewardToken" Type="flag(2)" />
+		<XmlField Name="staticInfos" Type="instance of Types.GroupMonsterStaticInformations" />
+		<XmlField Name="lootShare" Type="sbyte" Condition="lootShare &lt; -1 || lootShare &gt; 8" />
+		<XmlField Name="alignmentSide" Type="sbyte" />
+	</Fields>
+</XmlType>

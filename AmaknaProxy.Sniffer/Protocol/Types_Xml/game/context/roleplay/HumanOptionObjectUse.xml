@@ -1,0 +1,7 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="HumanOptionObjectUse" Id="449" Heritage="HumanOption">
+	<Fields>
+		<XmlField Name="delayTypeId" Type="sbyte" Condition="delayTypeId &lt; 0" />
+		<XmlField Name="delayEndTime" Type="double" Condition="delayEndTime &lt; 0 || delayEndTime &gt; 9007199254740990" />
+		<XmlField Name="objectGID" Type="varuhshort" Condition="objectGID &lt; 0" />
+	</Fields>
+</XmlType>

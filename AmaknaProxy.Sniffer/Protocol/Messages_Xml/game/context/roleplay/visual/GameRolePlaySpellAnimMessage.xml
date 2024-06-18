@@ -1,0 +1,8 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GameRolePlaySpellAnimMessage" Id="6114" Heritage="Message">
+	<Fields>
+		<XmlField Name="casterId" Type="varuhlong" Condition="casterId &lt; 0 || casterId &gt; 9007199254740990" />
+		<XmlField Name="targetCellId" Type="varuhshort" Condition="targetCellId &lt; 0 || targetCellId &gt; 559" />
+		<XmlField Name="spellId" Type="varuhshort" Condition="spellId &lt; 0" />
+		<XmlField Name="spellLevel" Type="short" Condition="spellLevel &lt; 1 || spellLevel &gt; 200" />
+	</Fields>
+</XmlMessage>

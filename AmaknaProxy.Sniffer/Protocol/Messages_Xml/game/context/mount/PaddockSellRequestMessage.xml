@@ -1,0 +1,6 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PaddockSellRequestMessage" Id="5953" Heritage="Message">
+	<Fields>
+		<XmlField Name="price" Type="varuhlong" Condition="price &lt; 0 || price &gt; 9007199254740990" />
+		<XmlField Name="forSale" Type="boolean" />
+	</Fields>
+</XmlMessage>

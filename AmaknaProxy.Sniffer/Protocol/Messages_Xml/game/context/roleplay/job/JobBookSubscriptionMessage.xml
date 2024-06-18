@@ -1,0 +1,5 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="JobBookSubscriptionMessage" Id="6593" Heritage="Message">
+	<Fields>
+		<XmlField Name="subscriptions" Type="Types.JobBookSubscription[]" />
+	</Fields>
+</XmlMessage>

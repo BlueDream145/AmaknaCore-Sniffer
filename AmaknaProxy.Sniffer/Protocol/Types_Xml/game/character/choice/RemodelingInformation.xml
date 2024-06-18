@@ -1,0 +1,9 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="RemodelingInformation" Id="480" Heritage="">
+	<Fields>
+		<XmlField Name="name" Type="utf" />
+		<XmlField Name="breed" Type="sbyte" />
+		<XmlField Name="sex" Type="boolean" />
+		<XmlField Name="cosmeticId" Type="varuhshort" Condition="cosmeticId &lt; 0" />
+		<XmlField Name="colors" Type="int[]" />
+	</Fields>
+</XmlType>

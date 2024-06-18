@@ -1,0 +1,8 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GameRolePlayArenaLeagueRewardsMessage" Id="6785" Heritage="Message">
+	<Fields>
+		<XmlField Name="seasonId" Type="varuhshort" Condition="seasonId &lt; 0" />
+		<XmlField Name="leagueId" Type="varuhshort" Condition="leagueId &lt; 0" />
+		<XmlField Name="ladderPosition" Type="int" />
+		<XmlField Name="endSeasonReward" Type="boolean" />
+	</Fields>
+</XmlMessage>

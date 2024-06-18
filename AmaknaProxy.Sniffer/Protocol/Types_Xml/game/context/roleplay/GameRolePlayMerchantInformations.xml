@@ -1,0 +1,6 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GameRolePlayMerchantInformations" Id="129" Heritage="GameRolePlayNamedActorInformations">
+	<Fields>
+		<XmlField Name="sellType" Type="sbyte" Condition="sellType &lt; 0" />
+		<XmlField Name="options" Type="instance of Types.HumanOption[]" />
+	</Fields>
+</XmlType>

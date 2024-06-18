@@ -1,0 +1,5 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildKickRequestMessage" Id="5887" Heritage="Message">
+	<Fields>
+		<XmlField Name="kickedId" Type="varuhlong" Condition="kickedId &lt; 0 || kickedId &gt; 9007199254740990" />
+	</Fields>
+</XmlMessage>

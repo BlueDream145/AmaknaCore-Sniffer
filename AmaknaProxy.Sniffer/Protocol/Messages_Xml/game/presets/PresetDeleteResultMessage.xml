@@ -1,0 +1,6 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PresetDeleteResultMessage" Id="6748" Heritage="Message">
+	<Fields>
+		<XmlField Name="presetId" Type="short" />
+		<XmlField Name="code" Type="sbyte" Condition="code &lt; 0" />
+	</Fields>
+</XmlMessage>

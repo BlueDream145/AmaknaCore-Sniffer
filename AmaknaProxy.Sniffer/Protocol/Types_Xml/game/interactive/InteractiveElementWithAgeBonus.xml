@@ -1,0 +1,5 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="InteractiveElementWithAgeBonus" Id="398" Heritage="InteractiveElement">
+	<Fields>
+		<XmlField Name="ageBonus" Type="short" Condition="ageBonus &lt; -1 || ageBonus &gt; 1000" />
+	</Fields>
+</XmlType>

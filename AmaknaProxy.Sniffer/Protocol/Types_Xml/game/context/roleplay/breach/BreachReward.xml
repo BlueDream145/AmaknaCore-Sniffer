@@ -1,0 +1,9 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="BreachReward" Id="559" Heritage="">
+	<Fields>
+		<XmlField Name="id" Type="varuhint" Condition="id &lt; 0" />
+		<XmlField Name="buyLocks" Type="sbyte[]" />
+		<XmlField Name="buyCriterion" Type="utf" />
+		<XmlField Name="remainingQty" Type="varint" />
+		<XmlField Name="price" Type="varuhint" Condition="price &lt; 0" />
+	</Fields>
+</XmlType>

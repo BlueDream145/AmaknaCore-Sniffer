@@ -1,0 +1,7 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GameRolePlayArenaSwitchToGameServerMessage" Id="6574" Heritage="Message">
+	<Fields>
+		<XmlField Name="validToken" Type="boolean" />
+		<XmlField Name="ticket" Type="sbyte[]" />
+		<XmlField Name="homeServerId" Type="short" />
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,10 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ExchangeStartedWithPodsMessage" Id="6129" Heritage="ExchangeStartedMessage">
+	<Fields>
+		<XmlField Name="firstCharacterId" Type="double" Condition="firstCharacterId &lt; -9007199254740990 || firstCharacterId &gt; 9007199254740990" />
+		<XmlField Name="firstCharacterCurrentWeight" Type="varuhint" Condition="firstCharacterCurrentWeight &lt; 0" />
+		<XmlField Name="firstCharacterMaxWeight" Type="varuhint" Condition="firstCharacterMaxWeight &lt; 0" />
+		<XmlField Name="secondCharacterId" Type="double" Condition="secondCharacterId &lt; -9007199254740990 || secondCharacterId &gt; 9007199254740990" />
+		<XmlField Name="secondCharacterCurrentWeight" Type="varuhint" Condition="secondCharacterCurrentWeight &lt; 0" />
+		<XmlField Name="secondCharacterMaxWeight" Type="varuhint" Condition="secondCharacterMaxWeight &lt; 0" />
+	</Fields>
+</XmlMessage>

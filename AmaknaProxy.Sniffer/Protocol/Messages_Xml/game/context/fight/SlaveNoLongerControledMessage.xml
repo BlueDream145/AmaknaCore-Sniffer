@@ -1,0 +1,6 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SlaveNoLongerControledMessage" Id="6807" Heritage="Message">
+	<Fields>
+		<XmlField Name="masterId" Type="double" Condition="masterId &lt; -9007199254740990 || masterId &gt; 9007199254740990" />
+		<XmlField Name="slaveId" Type="double" Condition="slaveId &lt; -9007199254740990 || slaveId &gt; 9007199254740990" />
+	</Fields>
+</XmlMessage>

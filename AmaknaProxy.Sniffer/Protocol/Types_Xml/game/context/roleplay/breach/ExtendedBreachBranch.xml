@@ -1,0 +1,7 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ExtendedBreachBranch" Id="560" Heritage="BreachBranch">
+	<Fields>
+		<XmlField Name="rewards" Type="Types.BreachReward[]" />
+		<XmlField Name="modifier" Type="varint" />
+		<XmlField Name="prize" Type="varuhint" Condition="prize &lt; 0" />
+	</Fields>
+</XmlType>

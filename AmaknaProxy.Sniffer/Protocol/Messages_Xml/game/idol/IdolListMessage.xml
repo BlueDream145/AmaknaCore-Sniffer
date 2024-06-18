@@ -1,0 +1,7 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="IdolListMessage" Id="6585" Heritage="Message">
+	<Fields>
+		<XmlField Name="chosenIdols" Type="varuhshort[]" />
+		<XmlField Name="partyChosenIdols" Type="varuhshort[]" />
+		<XmlField Name="partyIdols" Type="instance of Types.PartyIdol[]" />
+	</Fields>
+</XmlMessage>

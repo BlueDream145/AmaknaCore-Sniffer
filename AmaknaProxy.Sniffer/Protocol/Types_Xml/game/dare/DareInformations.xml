@@ -1,0 +1,15 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DareInformations" Id="502" Heritage="">
+	<Fields>
+		<XmlField Name="dareId" Type="double" Condition="dareId &lt; 0 || dareId &gt; 9007199254740990" />
+		<XmlField Name="creator" Type="Types.CharacterBasicMinimalInformations" />
+		<XmlField Name="subscriptionFee" Type="varuhlong" Condition="subscriptionFee &lt; 0 || subscriptionFee &gt; 9007199254740990" />
+		<XmlField Name="jackpot" Type="varuhlong" Condition="jackpot &lt; 0 || jackpot &gt; 9007199254740990" />
+		<XmlField Name="maxCountWinners" Type="ushort" Condition="maxCountWinners &lt; 0 || maxCountWinners &gt; 65535" />
+		<XmlField Name="endDate" Type="double" Condition="endDate &lt; 0 || endDate &gt; 9007199254740990" />
+		<XmlField Name="isPrivate" Type="boolean" />
+		<XmlField Name="guildId" Type="varuhint" Condition="guildId &lt; 0" />
+		<XmlField Name="allianceId" Type="varuhint" Condition="allianceId &lt; 0" />
+		<XmlField Name="criterions" Type="Types.DareCriteria[]" />
+		<XmlField Name="startDate" Type="double" Condition="startDate &lt; 0 || startDate &gt; 9007199254740990" />
+	</Fields>
+</XmlType>

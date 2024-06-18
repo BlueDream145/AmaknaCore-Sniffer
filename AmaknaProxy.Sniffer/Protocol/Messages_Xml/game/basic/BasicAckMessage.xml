@@ -1,0 +1,6 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="BasicAckMessage" Id="6362" Heritage="Message">
+	<Fields>
+		<XmlField Name="seq" Type="varuhint" Condition="seq &lt; 0" />
+		<XmlField Name="lastPacketId" Type="varuhshort" Condition="lastPacketId &lt; 0" />
+	</Fields>
+</XmlMessage>

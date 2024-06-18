@@ -1,0 +1,8 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="HumanOptionOrnament" Id="411" Heritage="HumanOption">
+	<Fields>
+		<XmlField Name="ornamentId" Type="varuhshort" Condition="ornamentId &lt; 0" />
+		<XmlField Name="level" Type="varuhshort" Condition="level &lt; 0" />
+		<XmlField Name="leagueId" Type="varshort" />
+		<XmlField Name="ladderPosition" Type="int" />
+	</Fields>
+</XmlType>

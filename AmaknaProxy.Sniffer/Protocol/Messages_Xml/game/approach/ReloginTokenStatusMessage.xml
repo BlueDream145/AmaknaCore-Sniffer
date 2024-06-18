@@ -1,0 +1,6 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ReloginTokenStatusMessage" Id="6539" Heritage="Message">
+	<Fields>
+		<XmlField Name="validToken" Type="boolean" />
+		<XmlField Name="ticket" Type="sbyte[]" />
+	</Fields>
+</XmlMessage>

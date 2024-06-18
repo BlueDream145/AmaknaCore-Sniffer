@@ -1,0 +1,8 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildInsiderFactSheetInformations" Id="423" Heritage="GuildFactSheetInformations">
+	<Fields>
+		<XmlField Name="leaderName" Type="utf" />
+		<XmlField Name="nbConnectedMembers" Type="varuhshort" Condition="nbConnectedMembers &lt; 0" />
+		<XmlField Name="nbTaxCollectors" Type="sbyte" Condition="nbTaxCollectors &lt; 0" />
+		<XmlField Name="lastActivity" Type="int" Condition="lastActivity &lt; 0" />
+	</Fields>
+</XmlType>

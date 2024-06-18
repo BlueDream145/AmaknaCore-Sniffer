@@ -1,0 +1,7 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="TeleportRequestMessage" Id="5961" Heritage="Message">
+	<Fields>
+		<XmlField Name="sourceType" Type="sbyte" Condition="sourceType &lt; 0" />
+		<XmlField Name="destinationType" Type="sbyte" Condition="destinationType &lt; 0" />
+		<XmlField Name="mapId" Type="double" Condition="mapId &lt; 0 || mapId &gt; 9007199254740990" />
+	</Fields>
+</XmlMessage>

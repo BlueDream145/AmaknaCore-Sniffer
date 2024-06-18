@@ -1,0 +1,6 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="MountRidingMessage" Id="5967" Heritage="Message">
+	<Fields>
+		<XmlField Name="isRiding" Type="flag(0)" />
+		<XmlField Name="isAutopilot" Type="flag(1)" />
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,7 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="MimicryObjectFeedAndAssociateRequestMessage" Id="6460" Heritage="SymbioticObjectAssociateRequestMessage">
+	<Fields>
+		<XmlField Name="foodUID" Type="varuhint" Condition="foodUID &lt; 0" />
+		<XmlField Name="foodPos" Type="byte" Condition="foodPos &lt; 0 || foodPos &gt; 255" />
+		<XmlField Name="preview" Type="boolean" />
+	</Fields>
+</XmlMessage>

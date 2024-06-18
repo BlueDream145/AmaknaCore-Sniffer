@@ -1,0 +1,10 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PartyInvitationMessage" Id="5586" Heritage="AbstractPartyMessage">
+	<Fields>
+		<XmlField Name="partyType" Type="sbyte" Condition="partyType &lt; 0" />
+		<XmlField Name="partyName" Type="utf" />
+		<XmlField Name="maxParticipants" Type="sbyte" Condition="maxParticipants &lt; 0" />
+		<XmlField Name="fromId" Type="varuhlong" Condition="fromId &lt; 0 || fromId &gt; 9007199254740990" />
+		<XmlField Name="fromName" Type="utf" />
+		<XmlField Name="toId" Type="varuhlong" Condition="toId &lt; 0 || toId &gt; 9007199254740990" />
+	</Fields>
+</XmlMessage>

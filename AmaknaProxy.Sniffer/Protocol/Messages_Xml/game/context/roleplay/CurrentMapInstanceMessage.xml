@@ -1,0 +1,5 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="CurrentMapInstanceMessage" Id="6738" Heritage="CurrentMapMessage">
+	<Fields>
+		<XmlField Name="instantiatedMapId" Type="double" Condition="instantiatedMapId &lt; 0 || instantiatedMapId &gt; 9007199254740990" />
+	</Fields>
+</XmlMessage>

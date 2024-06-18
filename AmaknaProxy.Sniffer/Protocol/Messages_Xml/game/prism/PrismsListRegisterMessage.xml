@@ -1,0 +1,5 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PrismsListRegisterMessage" Id="6441" Heritage="Message">
+	<Fields>
+		<XmlField Name="listen" Type="sbyte" Condition="listen &lt; 0" />
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,5 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PartyIdol" Id="490" Heritage="Idol">
+	<Fields>
+		<XmlField Name="ownersIds" Type="varuhlong[]" />
+	</Fields>
+</XmlType>

@@ -1,0 +1,6 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DareSubscribeRequestMessage" Id="6666" Heritage="Message">
+	<Fields>
+		<XmlField Name="dareId" Type="double" Condition="dareId &lt; 0 || dareId &gt; 9007199254740990" />
+		<XmlField Name="subscribe" Type="boolean" />
+	</Fields>
+</XmlMessage>

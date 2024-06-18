@@ -1,0 +1,7 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Achievement" Id="363" Heritage="">
+	<Fields>
+		<XmlField Name="id" Type="varuhshort" Condition="id &lt; 0" />
+		<XmlField Name="finishedObjective" Type="Types.AchievementObjective[]" />
+		<XmlField Name="startedObjectives" Type="Types.AchievementStartedObjective[]" />
+	</Fields>
+</XmlType>
